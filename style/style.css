@@ -1,4 +1,21 @@
-.dots {
+body {
+  background-color: white;
+  font-family: Arial,sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0,0,0,0.87);
+  font-size: 13px;
+}
+a:hover {
+  text-decoration: underline;
+  opacity: 0.85;
+}
+
+/* Header */
+
+#dots {
   height: 30px;
   width: 30px;
   display: inline-block;
@@ -6,4 +23,27 @@
   background-size: 528px 68px;
   background-position: -132px -38px;
   vertical-align: middle;
+  opacity: 0.55;
+}
+
+#dots:hover {
+  opacity: 0.85;
+}
+
+#signin {
+  display: inline-block;
+  padding: 0 12px;
+  border-radius: 2px;
+  border: 1px solid rgb(67, 135, 253);
+  background-color: rgb(67, 135, 253);
+  color: rgb(255,255,255);
+  font-weight: 700;
+  line-height: 28px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 0px 0px;
+}
+
+#signin:hover {
+  text-decoration: none;
+  opacity: inherit;
+  cursor: default;
 }
