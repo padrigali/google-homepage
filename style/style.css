@@ -1,11 +1,13 @@
 body {
   background-color: white;
   font-family: Arial,sans-serif;
+  margin: 18px 30px;
 }
 
 a {
   text-decoration: none;
-  color: rgba(0,0,0,0.87);
+  color: rgb(0,0,0);
+  opacity: 0.87;
   font-size: 13px;
 }
 a:hover {
@@ -17,6 +19,10 @@ a:hover {
 
 #top-bar {
   text-align: right;
+}
+
+#images {
+  padding: 0 15px;
 }
 
 #dots {
@@ -36,7 +42,7 @@ a:hover {
 
 #signin {
   display: inline-block;
-  padding: 0 12px;
+  padding: 0 12px !important;
   border-radius: 2px;
   border: 1px solid rgb(67, 135, 253);
   background-color: rgb(67, 135, 253);
@@ -44,6 +50,7 @@ a:hover {
   font-weight: 700;
   line-height: 28px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 0px 0px;
+  margin-left: 15px;
 }
 
 #signin:hover {
@@ -54,17 +61,17 @@ a:hover {
 
 
 /* Search form */
+
+#central_section {
+  text-align: center;
+}
+
 form {
   border: medium none;
   padding: 0;
   margin: 0;
   width: 100%;
 }
-
-#central_section {
-  text-align: center;
-}
-
 
 input[type="text"] {
   font: 16px;
@@ -79,7 +86,6 @@ input[type="text"] {
   border-radius: 2px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
   padding: 0 16px;
-
 }
 
 input[type="text"]:hover {
@@ -87,9 +93,8 @@ input[type="text"]:hover {
 }
 
 input[type="submit"] {
-height: 36px;
-line-height: 27px;
-
+  height: 36px;
+  line-height: 27px;
   padding-top: 18px;
   border-radius: 2px;
   cursor: default;
@@ -102,7 +107,6 @@ line-height: 27px;
   background-color: #f2f2f2;
   border: 1px solid #f2f2f2;
   color: #757575;
-
 }
 
 input[type="submit"]:hover {
@@ -114,3 +118,55 @@ input[type="submit"]:hover {
 
 
 /* Footer */
+
+
+#Footer {
+  display: block;
+  height: 137px;
+  position: absolute;
+  width: 100%;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  line-height: 40px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 82px;
+}
+
+#Location {
+  border-bottom: 1px solid #e4e4e4;
+  height: 40px;
+}
+
+#Location span {
+  margin-left: 30px;
+  opacity: 0.54;
+  font-size: 15px;
+  text-align: left;
+  color: #222;
+  opacity: 0.56;
+}
+span {
+
+}
+#footer_left {
+  float: left;
+  color: #666;
+  margin-left: 3px;
+}
+
+#footer_left a {
+  padding-left: 27px;
+}
+
+#footer_right {
+
+  float: right;
+  margin-right: 30px;
+  text-align: right;
+}
+
+#footer_right a {
+    padding-left: 27px;
+}
